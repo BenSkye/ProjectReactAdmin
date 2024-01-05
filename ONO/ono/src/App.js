@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-
+import Login from "./components/pages/login/login";
 
 function App() {
   return <div className="App">
-    <h1>Hello</h1>
+    <Login/>
   </div>;
 }
 
